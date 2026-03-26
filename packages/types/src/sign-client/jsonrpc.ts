@@ -5,6 +5,8 @@ import { RelayerTypes } from "../core/relayer.js";
 import { SessionTypes } from "./session.js";
 import { ProposalTypes } from "./proposal.js";
 import { AuthTypes } from "./auth.js";
+import { IntentTypes } from "./intent.js";
+import { CapabilityTypes } from "./capability.js";
 import { EngineTypes } from "./engine.js";
 
 export declare namespace JsonRpcTypes {
@@ -70,6 +72,8 @@ export declare namespace JsonRpcTypes {
         expiryTimestamp?: number;
       };
       chainId: string;
+      intent?: IntentTypes.Intent | IntentTypes.LegacyIntent;
+      capability?: CapabilityTypes.CapabilityBlock;
     };
     wc_sessionEvent: {
       event: {

@@ -5,3 +5,6 @@ export * from "./proposal.js";
 export * from "./session.js";
 export * from "./pendingRequest.js";
 export * from "./auth.js";
+export * from "./intent.js";
+export * from "./capability.js";
+export * from "./intent_simulation.js";

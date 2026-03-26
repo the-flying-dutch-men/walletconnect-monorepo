@@ -12,3 +12,6 @@ export * from "./memoryStore.js";
 export * from "./signatures.js";
 export * from "./polkadot.js";
 export * from "./logger.js";
+export * from "./intent.js";
+export * from "./capability.js";
+export * from "./intent_simulation.js";
